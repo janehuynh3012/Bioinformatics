@@ -6,7 +6,7 @@ def ReverseComplement(Pattern):
 	return Pattern
 def Reverse(Pattern):
 	reverse = " " # create an empty string
-	for char in	Pattern:
+	for char in Pattern:
 		reverse = char + reverse # the string is reversed
 	return reverse
 def Complement(Pattern):
