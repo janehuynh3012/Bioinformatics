@@ -1,3 +1,5 @@
+# Input:  A string Text and an integer k
+# Output: A list containing all most frequent k-mers in Text
 def FrequentWords(Text, k):
     words = []
     freq = FrequencyMap(Text, k)
