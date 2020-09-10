@@ -15,3 +15,4 @@ def Complement(Pattern):
 	for char in Pattern:
 		complement += basepair.get(char) # return the value for	basepair
 	return complement
+Pattern = "AAAACCCGG"
