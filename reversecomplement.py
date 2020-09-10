@@ -1,4 +1,4 @@
-# Input:A DNA string Pattern.
+# Input: A DNA string Pattern.
 # Output: The reverse complement of Pattern.
 def ReverseComplement(Pattern):
 Pattern = Complement(Pattern) # complement each letter in a string	  
@@ -10,8 +10,8 @@ def Reverse(Pattern):
 		reverse = char + reverse # the string is reversed
     return reverse
 def Complement(Pattern):
-	 complement	= “ “
-	 basepair =	{“A”:”T”, “T”:”A”, “C”:”G”, “G”:”C”}
+	 complement = “ “
+	 basepair = {“A”:”T”, “T”:”A”, “C”:”G”, “G”:”C”}
 	 for char in Pattern:
-		  complement += basepair.get(char) # return the value for basepair
+		complement += basepair.get(char) # return the value for basepair
 	 return complement
